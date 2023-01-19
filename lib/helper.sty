@@ -1,0 +1,12 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{lib/helper}[2023/01/16 Helper LaTeX package with additional commands and styles]
+
+% Commands
+\newcommand{\B}[1]{\textbf{#1}}
+\newcommand{\T}{$T$}
+\newcommand{\F}{$F$}
+\newcommand{\qna}[2]{\item #1 \\ \B{Answer: } #2} % Has to be used in a list
+\newcommand\aug{\fboxsep=-\fboxrule\!\!\!\fbox{\strut}\!\!\!} % For matrix
+\newcommand{\tablerowbrace}[2]{\rdelim\}{#1}{3mm}[#2]} % Horizontal braces for table rows
+
+% Environments
